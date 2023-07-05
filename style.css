@@ -347,7 +347,7 @@
 @media only screen and (max-width: 768px) {
   .ahgar {
     margin-top: 235vh;
-    height: 232vh;
+    height: 246vh;
   }
   .ahgar .row .imgs img {
     width: 250px;
@@ -425,7 +425,7 @@
 }
 @media only screen and (max-width: 768px) {
   .masbah {
-    margin-top: 13vh;
+    margin-top: 50vh;
 
     height: 220vh;
   }
@@ -515,7 +515,7 @@ background-color: #0f0f0f;
 }
 @media only screen and (max-width: 768px) {
   .fadet {
-    margin-top: 136vh;
+    margin-top: 160vh;
 
     height: 220vh;
   }
@@ -689,6 +689,9 @@ background-color: #0f0f0f;
     }
     .end p{
       font-size: 18px;
+    }
+    .contact-us{
+      
     }
   }
   @media only screen and (max-width: 375px){
