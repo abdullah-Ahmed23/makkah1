@@ -729,13 +729,18 @@ background-color: #0f0f0f;
     .end p{
       font-size: 18px;
     }
-    .contact-us{
 
-    }
   }
-  @media only screen and (max-width: 375px){
+  @media only screen and (max-width: 400px){
     .contact-us {
-      margin-top: 80vh;
+      margin-top: -1vh;
+    height: 118vh;
+    }
+    .fadet{
+      height: 400vh;
+    }
+    .masbah{
+      height: 301vh;
     }
   
   }
