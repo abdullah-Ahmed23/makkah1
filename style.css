@@ -58,7 +58,7 @@
 .main {
   width: 100%;
   padding-top: 20vh;
-  height: 100vh;
+  height: 120vh;
   background-image: linear-gradient(
     to left,
     #000a2e,
@@ -738,4 +738,9 @@ background-color: #0f0f0f;
       margin-top: 80vh;
     }
   
+  }
+  @media only screen and (max-width: 1620px) {
+    .main{
+      height: 120vh;
+    }
   }
