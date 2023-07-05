@@ -614,15 +614,43 @@ background-color: #0f0f0f;
     outline: none;
     margin-bottom: 20px;
     padding: 15px;
+    transition: 0.4s ease;
   }
   .contact-us .contact-form .txt::placeholder{
     color: black;
     direction: rtl;
+    transition: 0.4s ease;
   }
+  .contact-us .contact-form .txt:hover::placeholder{
+    
+    color: white;
+  }
+  .contact-us .contact-form .txt:hover{
+    background-color: black;
+    color: white;
+  }
+  .contact-us .contact-form .txt:focus::placeholder{
+    background-color: black;
+    color: white;
+  }
+  .contact-us .contact-form .txt:focus{
+    background-color: black;
+    color: white;
+  }
+
   .contact-us .contact-form .txtarea::placeholder{
     text-align: center;
     color: #000;
     direction: rtl;
+  }
+  .contact-us .contact-form .txtarea:hover::placeholder{
+    text-align: center;
+    color: #ffffff;
+    direction: rtl;
+  }
+  .contact-us .contact-form .txtarea:hover{
+    background-color: black;
+    color: white;
   }
   .contact-us .contact-form .txtarea{
     width: 100%;
@@ -633,6 +661,7 @@ background-color: #0f0f0f;
     outline: none;
     margin-bottom: 20px;
     padding: 15px;
+    transition: 0.3s;
   }
   .contact-us .contact-form .btn{
     width: 100%;
@@ -644,7 +673,16 @@ background-color: #0f0f0f;
     padding: 10px 0;
     cursor: pointer;
     font-size: 18px;
+    transition: 0.3s;
   }
+  .contact-us .contact-form .btn:hover{
+    background: black;
+  }
+  .contact-us .contact-form .btn:active{
+    background-color: rgb(148, 148, 148);
+    box-shadow: 0 0 0 5px rgb(148, 148, 148);
+  }
+
   @media only screen and (max-width: 768px) {
     .contact-us .contact-in{
       flex-direction: column;
@@ -670,10 +708,11 @@ background-color: #0f0f0f;
     background-color: #00092b;
     color: white;
     border-radius: 20px;
+    transition: 0.3s;
   }
   .end .icons i:hover{
-    background-color: #00092b;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
   }
   
   @media only screen and (max-width: 768px){
